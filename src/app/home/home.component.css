@@ -1,0 +1,14 @@
+.pageInd{
+    width: 47px;
+    height: 4px;
+    background-color: #fff ;
+    position: fixed ;
+    margin-top: 57px ;
+    z-index: 10;
+    right:  631px;
+    z-index: 1000;
+}
+.show{
+    background-color: black ;
+    
+}

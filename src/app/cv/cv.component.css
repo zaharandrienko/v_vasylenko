@@ -1,0 +1,48 @@
+.cv{
+    width: 100%;
+    position: relative;
+    background-color: rgb(197, 137, 64) ;
+    padding: 70px 20%;
+    height: 700px;
+}
+.cv h1{
+    margin-bottom: 60px ;
+    text-align: center ;
+    font-size: 400% ;
+}
+
+.cv h3{
+    text-align: center ;
+    margin-bottom: 40px;
+}
+
+.file{
+    height: 320px;
+    width: 320px;
+    background-color: rgb(172, 172, 172);
+    margin: 20px ;
+    overflow: hidden;
+    position: absolute ;
+    float: left;
+}
+
+p{
+    font-size: 300% ;
+    margin-left: 20px;
+    float: left;
+    margin-left: 50% ;
+    margin-top: 120px;
+}
+
+.file p{
+    margin: 115px 100px ;
+}
+
+.go{
+    background-color: rgb(34, 34, 34) ;
+    transform: rotate(600deg);
+    width: 10px;
+    height: 10px;
+    margin-left: -50% ;
+    transition: all 2000ms ;
+}
