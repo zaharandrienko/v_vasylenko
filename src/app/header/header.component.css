@@ -175,6 +175,14 @@ a.icon{
         padding-right: 20px ;
     }
   }
+  @media screen and (max-width: 544px) {
+    .topnav h2{
+        width: 200px;
+        font-size: 110%;
+        margin-top: 16px ;
+    }
+
+  }
   
   @media screen and (max-width: 1044px) {
     .topnav.responsive {position: relative;}
