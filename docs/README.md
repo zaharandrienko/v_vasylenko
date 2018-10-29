@@ -1,2 +1,0 @@
-# Vasyl Vasylenko
-

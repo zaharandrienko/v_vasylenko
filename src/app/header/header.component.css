@@ -159,7 +159,7 @@ a.icon{
 } 
 
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1044px) {
     .topnav a {display: none;}
     .topnav a.icon {
       float: right;
@@ -171,9 +171,12 @@ a.icon{
         font-size: 150%;
         margin-top: 16px ;
     }
+    .topnav{
+        padding-right: 20px ;
+    }
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1044px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -192,7 +195,7 @@ a.icon{
 
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1044px) {
     .active{
         display:none;
 
