@@ -1,14 +1,15 @@
 .pageInd{
     width: 47px;
-    height: 4px;
-    background-color: #fff ;
+    height: 34px;
     position: fixed ;
-    margin-top: 57px ;
-    z-index: 10;
+    margin-top: 26px ;
+    z-index: 1;
     right:  631px;
     z-index: 1000;
+    box-shadow: inset 0px -200px 10px -196px rgb(161, 161, 161);
 }
-.show{
-    background-color: black ;
-    
+@media screen and (max-width: 1044px) {
+.pageInd{
+    display: none ;
 }
+  }
