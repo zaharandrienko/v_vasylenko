@@ -72,3 +72,32 @@ h1{
     margin: 50px ;
     font-size: 150%;
 }
+
+
+
+
+
+
+@media screen and (max-width: 1044px) {
+    .content1 p{
+        font-size: 100%;
+    }
+    .content1 h2{
+        font-size: 100%;
+    }
+    .intro h1{
+        font-size: 220%;
+        margin-bottom: 55px;
+    }
+    .content2{
+        font-size: 80%;
+    }
+    .post{
+        margin-left: 5%;
+        float: left;
+    }
+    .show{
+        width: 86%;
+        height: 150px;;
+    }
+  }

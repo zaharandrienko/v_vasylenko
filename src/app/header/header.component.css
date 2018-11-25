@@ -121,15 +121,25 @@ a.icon{
     padding-right: 40px ;
   }
 
-  .topnav h2{
+  .title{
       width: 300px;
       margin: 0 ;
       padding: 0 ;
       float: left;
-      margin-left: 3% ;
+      margin-left: 1% ;
       margin-top: 8px ;
-
-    
+  }
+  .title h5{
+      width: 100%;
+      font-size: 15px ;
+      text-align: center;
+      letter-spacing: 4px;
+  }
+  .title h2{
+      width: 100%;
+      font-size: 25px ;
+      text-align: center;
+      margin-bottom: 0px ;
   }
   
   .topnav a {
@@ -166,20 +176,27 @@ a.icon{
       display: block;
       z-index: 1;
     }
-    .topnav h2{
+    .title{
         width: 230px;
         font-size: 150%;
-        margin-top: 16px ;
+        margin-top: 6px ;
     }
     .topnav{
         padding-right: 20px ;
     }
   }
   @media screen and (max-width: 544px) {
-    .topnav h2{
+    .title{
         width: 200px;
         font-size: 110%;
-        margin-top: 16px ;
+        margin-top: 6px ;
+    }
+    .title h2{
+        font-size: 23px;
+    }
+    .topnav{
+        padding-right: 7px;
+        padding-left: 5px;
     }
 
   }
@@ -196,7 +213,7 @@ a.icon{
       display: block;
       text-align: left;
     }
-    .topnav h2{
+    .title{
         margin-bottom: 9px ;
     }
 

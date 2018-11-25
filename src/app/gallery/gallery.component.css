@@ -1,5 +1,5 @@
 .photo{
-    height: 500px;
+    height: auto;
     width: 100%;
     background-color: rgb(114, 114, 114) ;
     position: relative;
@@ -16,8 +16,8 @@
     h1{
         position: absolute ;
         bottom: 15px;
-        left: 5%;
-    
+        left: 3%;
+        color: #fff;
     }
 
     .navBar a {

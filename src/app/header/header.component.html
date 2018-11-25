@@ -11,16 +11,19 @@
 </div>
 <div class="general">
   <div class="topnav" id="myTopnav" [class.white]="show">
-    <h2 [class.none]="rota" [class.white]="show">VASYL VASYLENKO</h2>
+    <div class="title" [class.none]="rota" [class.white]="show">
+      <h2>VASYL VASYLENKO</h2>
+      <h5>conductor</h5>
+    </div>
     <a routerLink="Contact">Contact</a>
     <a routerLink="Gallery">Gallery</a>
     <a routerLink="Watch&Listen">Watch&Listen</a>
     <a routerLink="Projects">Projects</a>
     <a routerLink="Schedult">Schedult</a>
-    <a routerLink="About" >About</a>
-    <a routerLink="home" >Home</a>
+    <a routerLink="About">About</a>
+    <a routerLink="home">Home</a>
     <a class="icon">
-      <div class="menu"  (click)="rot()">
+      <div class="menu" (click)="rot()">
         <div class="bar1" [class.black]="show" [class.change1]="rota"></div>
         <div class="bar2" [class.black]="show" [class.change2]="rota"></div>
         <div class="bar3" [class.black]="show" [class.change3]="rota"></div>
