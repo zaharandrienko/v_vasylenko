@@ -16,11 +16,14 @@ export class BioComponent implements OnInit {
   @HostListener("window:scroll", [])
   onWindowScroll() {
 
-    if (this.document.documentElement.scrollTop > 400) {
-      this.show = true;
-    } else {
-      this.show = false;
-    }
+
+    this.show = this.document.documentElement.scrollTop > 400; 
+
+    // if (this.document.documentElement.scrollTop > 400) {
+    //   this.show = true;
+    // } else {
+    //   this.show = false;
+    // }
   }
 
   ngOnInit() {
