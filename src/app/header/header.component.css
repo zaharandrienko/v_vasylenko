@@ -6,6 +6,7 @@
     color: #fff;
     transition: color 1000ms ;
     top: 0px;
+    font-family: 'Cardo', serif;
 }
 .menu{
     z-index: 1;
