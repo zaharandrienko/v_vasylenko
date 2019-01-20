@@ -1,5 +1,6 @@
 .content{
     background-color: rgb(218, 239, 245);
+    box-shadow: inset 0px 0px 78px -8px rgba(0,0,0,0.75);
 }
 .blockquote{
    padding: 0px;
