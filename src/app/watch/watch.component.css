@@ -35,12 +35,12 @@ h1{
     right:  230px;
 } */
 .pageInd{
-    width: 104px;
+    width: 123px;
     height: 34px;
     position: fixed ;
     margin-top: 26px ;
     z-index: 1;
-    right:  230px;
+    right:  247px;
     z-index: 1000;
     box-shadow: inset 0px -200px 10px -196px rgb(161, 161, 161);
 }

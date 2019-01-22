@@ -1,12 +1,19 @@
 <footer class="footer">
   <form class="aa">
-
+<!-- 
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Message</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Send</button>
+    <button type="submit" class="btn btn-primary">Send</button> -->
+    <div class="sendButton" (click)="rot()" [class.buttonDown]="rota">
+      <div class="sendWindow" [class.active]="rota"></div>
+    </div>
   </form>
+  <!-- <div class="buss">
+    <div class="main"></div>
+    <div class="flag"></div>
+  </div> -->
   <div class="icons">
     <i class="fab fa-youtube fa-3x"></i>
     <i class="fab fa-soundcloud fa-3x "></i>

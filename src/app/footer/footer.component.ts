@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() { }
+  rota : boolean = false;
+
+
+
+
+  
+  rot(){
+    this.rota = !this.rota
+  }
 
   ngOnInit() {
   }
