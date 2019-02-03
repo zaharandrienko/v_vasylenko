@@ -22,6 +22,13 @@
 span{
     padding: 20px;
 }
+.form-group{
+    color: #fff;
+}
+.message{
+    max-height: 120px;
+    min-height: 75px;
+}
 .pageInd{
     width: 69px;
     height: 34px;

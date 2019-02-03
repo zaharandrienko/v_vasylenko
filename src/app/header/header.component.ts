@@ -31,6 +31,10 @@ export class HeaderComponent  {
     this.rota = !this.rota
   }
 
+  toTop(){
+    window.scroll(0,0);
+  }
+
 
 
 

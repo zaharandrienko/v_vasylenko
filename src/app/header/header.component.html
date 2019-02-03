@@ -15,13 +15,13 @@
       <h2>Vasyl Vasylenko</h2>
       <h5 [class.down]="show">conductor</h5>
     </div>
-    <a routerLink="Contact">Contact</a>
-    <a routerLink="Gallery">Gallery</a>
-    <a routerLink="Watch&Listen">Watch&Listen</a>
-    <a routerLink="Projects">Projects</a>
-    <a routerLink="Schedult">Schedule</a>
-    <a routerLink="About">About</a>
-    <a routerLink="home">Home</a>
+    <a routerLink="Contact" (click)="toTop()">Contact</a>
+    <a routerLink="Gallery" (click)="toTop()">Gallery</a>
+    <a routerLink="Watch&Listen" (click)="toTop()">Watch&Listen</a>
+    <a routerLink="Projects" (click)="toTop()">Projects</a>
+    <a routerLink="Schedult" (click)="toTop()">Schedule</a>
+    <a routerLink="About" (click)="toTop()">About</a>
+    <a routerLink="home" (click)="toTop()">Home</a>
     <a class="icon">
       <div class="menu" (click)="rot()">
         <div class="bar1" [class.black]="show" [class.change1]="rota"></div>
