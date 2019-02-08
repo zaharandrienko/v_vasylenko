@@ -2,8 +2,9 @@
   <h1>CV</h1>
   <h3>Download CV here:</h3>
   <div class="pdf">
-    <div class="file" [class.go]="go" (click)="Go()">
-      <p>cv.pdf</p>
+    <div class="file">
+      <div class="arrow" [class.go]="go" (click)="Go()"></div>
+      <div class="front" (click)="Go()"><p>cv.pdf</p></div>
     </div>
     <p>CV_ENG</p>
   </div>

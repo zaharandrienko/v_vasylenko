@@ -16,6 +16,8 @@ export class CVComponent implements OnInit {
 
   }
 
+  
+
   ngOnInit() {
   }
 
