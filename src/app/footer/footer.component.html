@@ -1,8 +1,11 @@
 <footer class="footer">
   <form class="aa">
-    <div class="sendButton" (click)="rot()" [class.buttonDown]="rota">
-      Message me
+    <div class="sendButton"  [class.buttonDown]="rota">
+      <p (click)="rot()" class="click">Message me</p>
       <div class="sendWindow" [class.active]="rota">
+        <div class="arrow" (click)="rot()">
+          <div class="c"></div>
+        </div>
         <div class="cart2">
           <div class="form-group">
             <label for="exampleInputEmail1"> Your Email</label>

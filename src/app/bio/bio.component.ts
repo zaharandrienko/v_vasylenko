@@ -12,11 +12,12 @@ export class BioComponent implements OnInit {
 
   title: HTMLDocument;
   show: boolean = false;
+  go :boolean = false 
 
   @HostListener("window:scroll", [])
   onWindowScroll() {
 
-
+    
     this.show = this.document.documentElement.scrollTop > 400; 
 
     // if (this.document.documentElement.scrollTop > 400) {
@@ -27,6 +28,10 @@ export class BioComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+  Go() {
+    this.go = !this.go ;
+
   }
 
 }
