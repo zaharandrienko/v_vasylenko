@@ -14,6 +14,10 @@ export class CVComponent implements OnInit {
   Go() {
     this.go = !this.go ;
 
+    setTimeout(() => {
+      this.go = !this.go
+    }, 1500);
+
   }
 
   
