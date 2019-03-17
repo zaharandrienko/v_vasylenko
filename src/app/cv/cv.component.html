@@ -1,11 +1,19 @@
 <div class="cv">
   <h1>CV</h1>
-  <h3>Download CV here:</h3>
+  <h3>You may download CV here:</h3>
   <div class="pdf">
     <div class="file">
       <div class="arrow" [class.go]="go" (click)="Go()"></div>
-      <div class="front" (click)="Go()"><p>cv.pdf</p></div>
+      <div class="front" (click)="Go()">Cv in english</div>
     </div>
-    <p>CV_ENG</p>
+    <div class="file">
+      <div class="arrow" [class.go]="go" (click)="Go()"></div>
+      <div class="front" (click)="Go()">Cv in ukrainian</div>
+    </div>
+    <div class="file">
+      <div class="arrow" [class.go]="go" (click)="Go()"></div>
+      <div class="front" (click)="Go()">Cv in russian</div>
+    </div>
+    
   </div>
 </div>
