@@ -33,6 +33,7 @@ import { RecordingsComponent } from './recordings/recordings.component';
 import { NewAwardComponent } from './new-award/new-award.component';
 import { NewReviewComponent } from './new-review/new-review.component';
 import { CardComponent } from './card/card.component';
+import { NoyYetComponent } from './noy-yet/noy-yet.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { CardComponent } from './card/card.component';
     RecordingsComponent,
     NewAwardComponent,
     NewReviewComponent,
-    CardComponent
+    CardComponent,
+    NoyYetComponent
   ],
   imports: [
     BrowserModule,

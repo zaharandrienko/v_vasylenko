@@ -1,145 +1,158 @@
-h1{
-    margin-bottom :100px ;
-    margin-top: 0px ;
-    text-align: center ;
+h1 {
+    margin-bottom: 100px;
+    margin-top: 0px;
+    text-align: center;
 }
-.content1{
-    margin-left: 5% ;
+
+.content1 {
+    margin-left: 5%;
     width: 90%;
     font-size: 150%;
-} 
-.intro{
-    background-color: rgb(214, 214, 206);
-    width: 100%;
-    padding-top: 50px ;
-    padding-bottom: 170px ;
 }
+
+.intro {
+    /*background-color: rgb(214, 214, 206);*/
+    background-color: #efebe8;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 170px;
+}
+
 .content1 p {
     font-size: 110%;
 }
+
 .content1 h2 {
-    margin-left: 15px ;
-    margin-bottom: 15px ;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
-.post{
-    width: 0px ;
+
+.post {
+    width: 0px;
     height: 0px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     position: relative;
-    float: right ;
-    margin: 15px ;
-    margin-right: 60px ;
-    padding: 0px ;
-    transition: all 500ms ;
-    border-radius: 5px ;
+    float: right;
+    margin: 15px;
+    margin-right: 60px;
+    padding: 0px;
+    transition: all 500ms;
+    border-radius: 5px;
     box-shadow: 10px 10px 33px -10px rgba(70, 70, 70, 0.75);
-    font-size: 0px ;
+    font-size: 0px;
 }
-.show{
+
+.show {
     background-color: rgb(146, 146, 146);
-    width: 400px ;
+    width: 400px;
     height: 175px;
-    padding: 15px ;
-    transition: all 500ms ;
-    font-size: 16px ;
+    padding: 15px;
+    transition: all 500ms;
+    font-size: 16px;
 }
-.post h3{
-    float: right ;
+
+.post h3 {
+    float: right;
 }
-.content2{
+
+.content2 {
     background-color: #fff;
     width: 100%;
-    height: auto ;
-    margin-top: 0px ;
+    height: auto;
+    margin-top: 0px;
     box-shadow: inset 0px 155px 34px -151px rgb(48, 48, 48);
-    padding-top: 40px ;
+    padding-top: 40px;
 }
-.content3{
+
+.content3 {
     background-color: #fff;
     width: 100%;
     height: 100px;
     box-shadow: inset 0px -155px 34px -151px rgb(48, 48, 48);
 }
-.content4{
+
+.content4 {
     width: 100%;
     height: auto;
-    padding-top: 40px ;
-    padding-bottom: 140px ;
-    background-color: rgb(214, 214, 206);
+    padding-top: 40px;
+    padding-bottom: 140px;
+    background-color: #efebe8;
 }
-.bioP{
-    margin: 50px ;
+
+.bioP {
+    margin: 50px;
     font-size: 150%;
 }
 
-.download{
-    font-size: 250%;
-    height: 80px;
-    width: 40%;
-    margin-left: 30%;
+.download {
+    font-size: 150%;
+    height: 50px;
+    width: 30%;
+    margin-left: 3%;
     margin-top: 50px;
     position: relative;
     z-index: 1;
 }
-.front{
-    position: absolute ;
-    color: #fff;
+
+.front {
+    position: absolute;
+    color:black;
     width: 100%;
     height: 100%;
-    background-color: rgb(17, 70, 52);
+    background-color: white;
     z-index: 1;
     border-radius: 20px;
     padding: 1%;
     cursor: pointer;
     text-align: center;
-    box-shadow: 10px 11px 24px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 11px 24px -11px rgba(0, 0, 0, 0.75);
 }
-.black{
-    background-color: black ;
+.btndow{
+    display: flex;
+
+}
+
+.black {
+    background-color: black;
     clip-path: polygon(25% 0, 25% 21%, 25% 49%, 25% 70%, 0 70%, 50% 100%, 100% 70%, 75% 70%, 75% 51%, 75% 21%, 75% 0, 50% 0);
     width: 30%;
     margin-left: 35%;
     height: 100%;
-    position: absolute ;
+    position: absolute;
     z-index: -1;
-
 }
-.go{
+
+.go {
     transition: all 1500ms;
     background-color: rgba(0, 0, 0, 0);
     margin-top: 75px;
-
 }
 
-
-
-
-
-
 @media screen and (max-width: 1044px) {
-    .content1 p{
+    .content1 p {
         font-size: 100%;
     }
-    .content1 h2{
+    .content1 h2 {
         font-size: 100%;
     }
-    .intro h1{
+    .intro h1 {
         font-size: 220%;
         margin-bottom: 55px;
     }
-    .content2{
+    .content2 {
         font-size: 80%;
     }
-    .post{
+    .post {
         margin-left: 5%;
         float: left;
     }
-    .show{
+    .show {
         width: 86%;
-        height: 150px;;
+        height: 150px;
+        ;
     }
-    .intro{
+    .intro {
         padding-bottom: 120px;
     }
-  }
+}
