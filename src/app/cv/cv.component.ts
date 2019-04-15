@@ -7,15 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CVComponent implements OnInit {
 
-  go :boolean = false 
+  go1 :boolean = false 
+  go2 :boolean = false 
+  go3 :boolean = false 
+  
 
   constructor() { }
 
-  Go() {
-    this.go = !this.go ;
+  Go1() {
+    this.go1 = !this.go1 ;
 
     setTimeout(() => {
-      this.go = !this.go
+      this.go1 = !this.go1
+    }, 1500);
+
+  }
+  Go2() {
+    this.go2 = !this.go2 ;
+
+    setTimeout(() => {
+      this.go2 = !this.go2
+    }, 1500);
+
+  }
+  Go3() {
+    this.go3 = !this.go3 ;
+
+    setTimeout(() => {
+      this.go3 = !this.go3
     }, 1500);
 
   }
