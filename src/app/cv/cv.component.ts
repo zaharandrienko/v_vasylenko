@@ -10,11 +10,12 @@ export class CVComponent implements OnInit {
   go1 :boolean = false 
   go2 :boolean = false 
   go3 :boolean = false 
+  
 
   constructor() { }
 
   Go1() {
-    this.go1 = !this.go1;
+    this.go1 = !this.go1 ;
 
     setTimeout(() => {
       this.go1 = !this.go1

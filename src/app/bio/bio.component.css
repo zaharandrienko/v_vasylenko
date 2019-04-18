@@ -1,3 +1,13 @@
+.pageInd{
+    width: 33px;
+    height: 34px;
+    position: absolute ;
+    margin-top: -32px ;
+    z-index: 1;
+    left: 41px;
+    z-index: 1000;
+    box-shadow: inset 0px -200px 20px -196px rgb(255, 255, 255);
+}
 h1 {
     margin-bottom: 100px;
     margin-top: 0px;
