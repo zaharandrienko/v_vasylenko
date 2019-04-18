@@ -29,6 +29,12 @@ span{
     max-height: 120px;
     min-height: 75px;
 }
+.btn{
+    background-color: #550C18;
+    border-style: none;
+}
+
+
 .pageInd{
     width: 69px;
     height: 34px;
