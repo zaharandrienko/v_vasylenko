@@ -5,4 +5,4 @@ only fist time do
 
  ng build --prod --base-href http://vasylvasylenko.com/
 
- ngh --dir dist/vvasylenko
+ ngh --dir dist/vvasylenko --cname=vasylvasylenko.com
