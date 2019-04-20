@@ -35,6 +35,7 @@ import { NewReviewComponent } from './new-review/new-review.component';
 import { CardComponent } from './card/card.component';
 
 import { NotYetComponent } from './not-yet/not-yet.component';
+import { NewsItemComponent } from './news-item/news-item.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +70,8 @@ import { NotYetComponent } from './not-yet/not-yet.component';
     NewAwardComponent,
     NewReviewComponent,
     CardComponent,
-    NotYetComponent
+    NotYetComponent,
+    NewsItemComponent
   ],
   imports: [
     BrowserModule,
