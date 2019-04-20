@@ -1,3 +1,4 @@
+import { NewsTabComponent } from './news-tab/news-tab.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule, Router } from '@angular/router';
@@ -5,7 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
-import { SchedultComponent } from './schedult/schedult.component';
 import { WatchComponent } from './watch/watch.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BioComponent } from './bio/bio.component';
@@ -54,7 +54,7 @@ const routes: Routes = [
     ]
   },
   { path: "Contact", component: ContactComponent },
-  { path: "Schedult", component: SchedultComponent },
+  { path: "News", component: NewsTabComponent },
   { path: "Watch&Listen", component: WatchComponent,
   children: [
     { path: "Music", component: MusicComponent },
