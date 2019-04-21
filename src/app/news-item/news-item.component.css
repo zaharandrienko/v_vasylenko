@@ -1,0 +1,27 @@
+.newsContainer {
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 70px;
+    height: 400px;
+}
+
+img {
+    /* height: 350px; */
+    width: 350px;
+}
+
+p {
+    font-size: 120%;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.newsImg {
+    margin: 0px 20px;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+}

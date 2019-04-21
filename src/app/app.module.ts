@@ -12,7 +12,6 @@ import { ContactComponent } from './contact/contact.component';
 import { GelleryComponent } from './gellery/gellery.component';
 import { WatchComponent } from './watch/watch.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { SchedultComponent } from './schedult/schedult.component';
 import { AboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ToTopComponent } from './to-top/to-top.component';
@@ -35,6 +34,8 @@ import { NewReviewComponent } from './new-review/new-review.component';
 import { CardComponent } from './card/card.component';
 
 import { NotYetComponent } from './not-yet/not-yet.component';
+import { NewsItemComponent } from './news-item/news-item.component';
+import { NewsTabComponent } from './news-tab/news-tab.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,6 @@ import { NotYetComponent } from './not-yet/not-yet.component';
     GelleryComponent,
     WatchComponent,
     ProjectsComponent,
-    SchedultComponent,
     AboutComponent,
     GalleryComponent,
     SliderComponent,
@@ -69,7 +69,9 @@ import { NotYetComponent } from './not-yet/not-yet.component';
     NewAwardComponent,
     NewReviewComponent,
     CardComponent,
-    NotYetComponent
+    NotYetComponent,
+    NewsItemComponent,
+    NewsTabComponent
   ],
   imports: [
     BrowserModule,

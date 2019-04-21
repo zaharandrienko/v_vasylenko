@@ -7,4 +7,4 @@ only fist time do
 
  copy CNAME file to dist/vvasylenko
 
- ngh --dir dist/vvasylenko
+ ngh --dir dist/vvasylenko --cname=vasylvasylenko.com

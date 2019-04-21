@@ -4,7 +4,7 @@
     position: relative;
     top:280px;
     left:500px;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
 }
 .block img{
     width: 100%;
@@ -19,7 +19,7 @@
     height: 60%;
     margin-left: 20%;
     margin-top: 15%;
-    background-color: rgb(206, 209, 12);
+    background-color: rgb(252, 252, 252);
     box-shadow: inset 0px 0px 22px 2px rgba(0,0,0,0.75);
     z-index: 1000;
     padding-top: 17%;
