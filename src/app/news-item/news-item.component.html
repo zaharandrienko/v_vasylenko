@@ -1,7 +1,9 @@
-<div class="NewPost">
-    <div class="img"><img src="{{imgSrc}}" alt=""></div>
+<div class="newsContainer">
+    <div class="newsImg"><img src="{{imgSrc}}" alt=""></div>
     <div class="content">
+      <h3>{{date}}</h3>
+     <div></div>
       <h3>{{title}}</h3>
-      <p>{{Post}}</p>
+      <ng-content></ng-content>
     </div>
   </div>
