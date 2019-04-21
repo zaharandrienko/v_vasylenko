@@ -36,6 +36,7 @@ import { CardComponent } from './card/card.component';
 import { NotYetComponent } from './not-yet/not-yet.component';
 import { NewsItemComponent } from './news-item/news-item.component';
 import { NewsTabComponent } from './news-tab/news-tab.component';
+import { ProjectsItemComponent } from './projects-item/projects-item.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +72,8 @@ import { NewsTabComponent } from './news-tab/news-tab.component';
     CardComponent,
     NotYetComponent,
     NewsItemComponent,
-    NewsTabComponent
+    NewsTabComponent,
+    ProjectsItemComponent
   ],
   imports: [
     BrowserModule,

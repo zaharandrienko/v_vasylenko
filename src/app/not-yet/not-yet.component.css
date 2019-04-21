@@ -4,6 +4,7 @@
     position: relative;
     top:280px;
     left:500px;
+    z-index: -1;
     /* transform: rotate(10deg); */
 }
 .block img{
