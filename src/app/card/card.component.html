@@ -1,13 +1,8 @@
-<div class="card">
+<div class="black"></div>
+<div class="card" (click)="move()">
   <div class="content">
-    <div class="color"></div>
-    <h2 class="date">{{date}}</h2>
-    <h3 class="title">{{title}}</h3>
-    <p class="bui">{{bui}}</p>
-    <p class="address">{{address}}</p>
-  </div>
-  <div class="more">
-    <h3>more information</h3>
-    <div class="go"></div>
-  </div>
+    <img src="{{imgSrc}}" [class.activeImg]="rota">
+  </div> 
+  <h2 class="date tag" [class.activeTag]="rota">{{date}}</h2>
+  <h3 class="title tag" [class.activeTag]="rota">{{title}}</h3>
 </div>

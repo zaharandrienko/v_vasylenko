@@ -8,16 +8,19 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input("title") title : string ;
+  
+  @Input("imgSrc") imgSrc : string;
 
   @Input("date") date : string;
 
-  @Input("bui") bui : string;
-
-  @Input("address") address : string;
-
+  rota:boolean = false ;
 
   constructor() { }
 
+
+  move(){
+    this.rota = !this.rota
+  }
   ngOnInit() {
   }
 
