@@ -1,0 +1,28 @@
+.projectsContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 50px;
+    margin-right: 5%;
+    width: 95%;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    /* height: 350px; */
+    width: 100%;
+}
+
+p {
+    font-size: 120%;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.newsImg {
+    margin: 0px 0px;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
