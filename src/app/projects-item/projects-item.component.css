@@ -1,14 +1,14 @@
 .projectsContainer {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr; */
+    margin: 0% 20%;
     margin-top: 50px;
-    margin-right: 5%;
-    width: 95%;
+    width: 60%;
     color: rgb(255, 255, 255);
 }
 
 img {
-    height: 350px;
+    height: auto;
     width: 100%;
 }
 
@@ -22,7 +22,9 @@ h3 {
 
 .newsImg {
     margin: 0px 0px;
-    height: 350px;
+    height: 315px;
     width: 100%;
     overflow: hidden;
+    background-color: rgb(53, 53, 53);
+
 }
