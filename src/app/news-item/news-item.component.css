@@ -1,9 +1,10 @@
 .newsContainer {
-    
+
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 10fr 20fr 5fr;
     margin-top: 70px;
     height: 400px;
+    font-family: 'Cardo', serif;
 }
 
 img {
