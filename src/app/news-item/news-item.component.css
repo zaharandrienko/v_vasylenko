@@ -1,9 +1,9 @@
 .newsContainer {
-    
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 70px;
     height: 400px;
+    padding: 0px 40px;
 }
 
 img {

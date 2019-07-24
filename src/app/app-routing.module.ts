@@ -21,6 +21,7 @@ import { FestivalComponent } from './festival/festival.component';
 import { FestivalPhotosComponent } from './festival-photos/festival-photos.component';
 import { MusicComponent } from './music/music.component';
 import { RecordingsComponent } from './recordings/recordings.component';
+import { ProjectsInfoComponent } from './projects-info/projects-info.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full" },
@@ -46,11 +47,12 @@ const routes: Routes = [
       { path: "Personal", component: PersonalComponent }
     ]
   },
+  { path: "Projects", redirectTo: "/Projects/ProjectsInfo", pathMatch: "full" },
   {
     path: "Projects", component: ProjectsComponent,
     children: [
-      { path: "Festival", component: FestivalComponent },
-      { path: "FestivalPhotos", component: FestivalPhotosComponent }
+      { path: "ProjectsInfo", component: ProjectsInfoComponent },
+      { path: "Festival", component: FestivalComponent }
     ]
   },
   { path: "Contact", component: ContactComponent },

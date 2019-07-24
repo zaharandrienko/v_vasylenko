@@ -1,26 +1,103 @@
 .contact {
-    padding: 70px;
+    width: 80%;
+    margin: 0% 10%;
     display: grid;
-    grid-column-gap: 100px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr ;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 
 .headtext {
-    padding-top: 130px;
+    padding-top: 200px;
     text-align: center;
     color: white;
 }
 
+i{
+    margin-bottom: 15px;
+}
+.cart1 {
+    height: auto;
+}
+.item{
+    padding: 10px;
+    padding-left: 50px;
+}
+span{
+    padding: 20px;
+    font-size: 15px;
+}
+.form-group{
+    color: #fff;
+}
+/* .message{
+    max-height: 120px;
+    min-height: 75px;
+} */
+.btn{
+    background-color: #550C18;
+    border-style: none;
+}
+
+.photo{
+    width: 100%;
+    height: 500px;
+    background-color: #550C18;
+    float: left;
+    overflow: hidden;
+}
+
+.pageInd{
+    width: 69px;
+    height: 34px;
+    position: fixed ;
+    margin-top: 26px ;
+    z-index: 1;
+    right:  54px;
+    z-index: 1000;
+    box-shadow: inset 0px -200px 10px -196px rgb(161, 161, 161);
+}
+@media screen and (max-width: 1044px) {
+.pageInd{
+    display: none ;
+}
+  }
+/* .contact {
+    padding: 70px;
+    display: grid;
+    grid-column-gap: 100px;
+    grid-template-columns: 1fr;
+}
+
+.headtext {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
 .cart1 {
     background-color: rgb(255, 255, 255);
-    padding: 30px;
+    padding: 20px 40px;
     border-radius: 10px;
 }
 .item{
     padding: 30px;
+    float: left;
+    width: 50%;
 }
+i{
+    height: auto;
+    margin: 10px 0px;
+}
+
 span{
-    padding: 20px;
+    height: 32px;
+    margin:0px 20px;
+    padding: 0px;
+    font-size: 22px;
 }
 .form-group{
     color: #fff;
@@ -49,4 +126,4 @@ span{
 .pageInd{
     display: none ;
 }
-  }
+  } */

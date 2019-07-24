@@ -5,6 +5,17 @@
     grid-template-columns: auto auto auto;
     margin: 50px;
 } */
+
+.pageInd{
+    width: 71px;
+    height: 34px;
+    position: absolute ;
+    margin-top: -84px ;
+    z-index: 1;
+    left: 42px;
+    z-index: 1000;
+    box-shadow: inset 0px -200px 20px -196px rgb(255, 255, 255);
+}
 .general{
     width: 92%;
     margin-left: 5.5%;
@@ -12,6 +23,6 @@
 h1{
     text-align: center ;
     margin: 120px 0px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     z-index: 2;
 }

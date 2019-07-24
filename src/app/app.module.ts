@@ -9,7 +9,6 @@ import { NewsComponent } from './news/news.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { GelleryComponent } from './gellery/gellery.component';
 import { WatchComponent } from './watch/watch.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
@@ -37,6 +36,9 @@ import { NotYetComponent } from './not-yet/not-yet.component';
 import { NewsItemComponent } from './news-item/news-item.component';
 import { NewsTabComponent } from './news-tab/news-tab.component';
 import { ProjectsItemComponent } from './projects-item/projects-item.component';
+import { SoundComponent } from './sound/sound.component';
+import { ProjectsInfoComponent } from './projects-info/projects-info.component';
+
 
 @NgModule({
   declarations: [
@@ -46,7 +48,6 @@ import { ProjectsItemComponent } from './projects-item/projects-item.component';
     NewsComponent,
     HomeComponent,
     ContactComponent,
-    GelleryComponent,
     WatchComponent,
     ProjectsComponent,
     AboutComponent,
@@ -73,7 +74,9 @@ import { ProjectsItemComponent } from './projects-item/projects-item.component';
     NotYetComponent,
     NewsItemComponent,
     NewsTabComponent,
-    ProjectsItemComponent
+    ProjectsItemComponent,
+    SoundComponent,
+    ProjectsInfoComponent,
   ],
   imports: [
     BrowserModule,
