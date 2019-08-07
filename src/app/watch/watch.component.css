@@ -1,3 +1,6 @@
+.content{
+    width: 100%;
+}
 .general{
     width: 84%;
     margin: 10%  8%;
@@ -19,8 +22,35 @@
     background-color: rgb(194, 194, 194);
     overflow: hidden;
 }
+
+/* .content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.general{
+    width: 84%;
+    margin: 10%  8%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.377);
+}
+
+.card1{
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+
+.card2{
+    background-color: rgb(194, 194, 194);
+    overflow: hidden;
+} */
 h2{
     margin: 30px 0px;
+    margin-top: 120px;
 }
 
 
@@ -45,44 +75,6 @@ h1{
 iframe{
     margin-bottom: -5px;
 }
-/* .content{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 90%;
-    margin: 0% 5%;
-    padding-top: 80px;
-}
-
-.right{
-    height: 100%;
-}
-
-.left{
-    height: 100%;
-    margin: 0%  10% ;
-}
-
-.video{
-    margin-top: 40px;
-    height: auto;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-.sound{
-    margin-top: 40px;
-    padding: 25px;
-    height: auto;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-h3{
-    margin: 10px 5px;
-}
-
- */
 
 
 @media screen and (max-width: 1044px) {
