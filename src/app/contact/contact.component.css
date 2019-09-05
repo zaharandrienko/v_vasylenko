@@ -1,12 +1,111 @@
+.general{
+    width: 100%;
+    padding: 200px 0% ;
+
+}
+.general h1{
+    text-align: center ;
+    margin-bottom: 100px;
+    /* color: #fff; */
+    
+}
+
+
+
+@media screen and (max-width: 1044px) {
+.pageInd{
+    display: none ;
+}
+  }
+
+
+
+
+  .photo{
+    height: auto;
+    width: 100%;
+    background-color: rgb(114, 114, 114) ;
+    position: relative;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex: 0 1 60vw;
+        margin: 0;
+    }
+    h1{
+        position: absolute ;
+        bottom: 15px;
+        left: 5%;
+        color: #fff;
+    }
+    .navBar{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(36, 36, 36) ;
+        overflow: hidden;
+        padding-left: 30px;
+        margin-bottom: 0px;
+    }
+    .navBar a {
+        float: left;
+        color: rgb(36, 36, 36);
+        text-align: center;
+        padding: 18px 14px;
+        text-decoration: none;
+        font-size: 18px; 
+        line-height: 25px;
+        /* cursor: pointer; */
+      }
+      
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .content{
+          width: 100%;
+          height: 100%;
+      }
+      @media screen and (max-width: 500px) {
+        .navBar a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        .navBar{
+            padding-left: 0px ;
+        }
+        .navBar a:nth-child(1){
+            background-color: rgb(43, 43, 43) ;
+        }
+        .navBar a:nth-child(2){
+            background-color: rgb(63, 63, 63) ;
+        }
+        .navBar a:nth-child(3){
+            background-color: rgb(103, 103, 103) ;
+        }
+        .navBar a:nth-child(4){
+            background-color: rgb(123, 123, 123) ;
+        }
+    }
+
+
+
+
+
+
 .contact {
-    width: 80%;
-    margin: 0% 10%;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr ;
+    width: 100%;
+    margin: 0% 0%;
+    /* display: grid;
+    grid-template-columns: 1fr 1.5fr ; */
     background-color: rgb(255, 255, 255);
     padding: 50px;
-    border-radius: 10px;
-    margin-top: 100px;
+    border-radius: 0px;
+    margin-top: 0px;
 }
 
 .headtext {
@@ -32,16 +131,13 @@ span{
 .form-group{
     color: #fff;
 }
-/* .message{
-    max-height: 120px;
-    min-height: 75px;
-} */
+
 .btn{
     background-color: #550C18;
     border-style: none;
 }
 
-.photo{
+.photo1{
     width: 100%;
     height: 500px;
     background-color: #550C18;
