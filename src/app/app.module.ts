@@ -38,6 +38,7 @@ import { NewsTabComponent } from './news-tab/news-tab.component';
 import { ProjectsItemComponent } from './projects-item/projects-item.component';
 import { SoundComponent } from './sound/sound.component';
 import { ProjectsInfoComponent } from './projects-info/projects-info.component';
+import { Card2Component } from './card2/card2.component';
 
 
 @NgModule({
@@ -77,6 +78,7 @@ import { ProjectsInfoComponent } from './projects-info/projects-info.component';
     ProjectsItemComponent,
     SoundComponent,
     ProjectsInfoComponent,
+    Card2Component,
   ],
   imports: [
     BrowserModule,

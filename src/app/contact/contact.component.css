@@ -1,3 +1,7 @@
+.test{
+    margin-left: -32px;
+    font-weight: bold;
+}
 .general{
     width: 100%;
     padding: 200px 0% ;
@@ -102,7 +106,7 @@
     margin: 0% 0%;
     /* display: grid;
     grid-template-columns: 1fr 1.5fr ; */
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     padding: 50px;
     border-radius: 0px;
     margin-top: 0px;
@@ -118,11 +122,12 @@ i{
     margin-bottom: 15px;
 }
 .cart1 {
-    height: auto;
+    height: 300px;
 }
 .item{
     padding: 10px;
     padding-left: 50px;
+    float: left;
 }
 span{
     padding: 20px;
