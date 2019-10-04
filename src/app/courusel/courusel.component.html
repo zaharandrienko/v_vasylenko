@@ -1,0 +1,28 @@
+<button style="clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);margin-left: 1%;" (click)="prev()"></button>
+<div class="general">
+
+  <app-courusel-item [hide]="0 !== index">
+    <div class="myGrid">
+      <div class="photo"><img src="assets/img/gallery/3.jpg"></div>
+      <div class="photo"><img src="assets/img/gallery/2.jpg"></div>
+      <div class="photo"><img src="assets/img/gallery/4.jpg"></div>
+    </div>
+  </app-courusel-item>
+  <app-courusel-item [hide]="1 !== index">
+    <div class="myGrid">
+      <div class="photo"><img src="assets/img/gallery/5.jpg"></div>
+      <div class="photo"><img src="assets/img/gallery/6.jpg"></div>
+      <div class="photo"><img src="assets/img/gallery/7.jpg"></div>
+    </div>
+  </app-courusel-item>
+  <app-courusel-item [hide]="2 !== index">
+    <div class="myGrid">
+      <div class="photo"><img src="assets/img/gallery/4.jpg"></div>
+      <div class="photo"><img src="assets/img/gallery/1.jpg"></div>
+      <div class="photo"><img src="assets/img/gallery/2.jpg"></div>
+    </div>
+  </app-courusel-item>
+
+
+</div>
+<button style="clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);margin-right: 1%;" (click)="next()"></button>

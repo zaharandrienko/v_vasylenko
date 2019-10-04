@@ -1,0 +1,32 @@
+.general{
+    width: 92%;
+    margin: 0% 0%;
+    float: left;
+}
+.myGrid{
+    width: 100%;
+    height: 300px;
+    margin: 0% 0%;
+}
+
+.photo{
+    width: 31.33%;
+    height: 300px;
+    float: left;
+    margin: 0px 1%;
+    background-color: rgb(180, 177, 177);
+    overflow: hidden;
+}
+button{
+    height: 40px;
+    width: 3%;
+    margin: 130px 0px;
+    float: left;
+    border: none;
+    background-color: rgb(180, 180, 180);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

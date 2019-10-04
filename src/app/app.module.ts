@@ -1,6 +1,7 @@
 import { SliderComponent } from './slider/slider.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import * as $ from 'jquery';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -39,6 +40,10 @@ import { ProjectsItemComponent } from './projects-item/projects-item.component';
 import { SoundComponent } from './sound/sound.component';
 import { ProjectsInfoComponent } from './projects-info/projects-info.component';
 import { Card2Component } from './card2/card2.component';
+import {CarouselModule} from 'primeng/carousel';
+import {ToastModule} from 'primeng/toast';
+import { CouruselComponent } from './courusel/courusel.component';
+import { CouruselItemComponent } from './courusel-item/courusel-item.component';
 
 
 @NgModule({
@@ -79,10 +84,15 @@ import { Card2Component } from './card2/card2.component';
     SoundComponent,
     ProjectsInfoComponent,
     Card2Component,
+    CouruselComponent,
+    CouruselItemComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule,
+    ToastModule
   ],
   providers: [],
   bootstrap: [AppComponent]
