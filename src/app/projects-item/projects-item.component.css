@@ -25,6 +25,64 @@ h3{
     float: left;
     width: 70%;
     margin-left: 40px ;
-    
+    max-height: 350px;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    .newsImg{
+        width: 30%;
+        margin: 0px;
+    }
+    .content{
+        width: 60%;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+
+}
+@media screen and (max-width: 1000px){
+    h2,h3{
+        font-size: 130%;
+    }
+    h3{
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 860px){
+    .projectsContainer{
+        margin-top: 30px;
+    }
+    .content{
+        overflow-y: auto;
+    }
+    .newsImg{
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    .content{
+        height: 300px;
+        width: 65%;
+    }
+    h2,h3{
+        font-size: 110%;
+    }
+    h3{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 666px){
+    .content{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 400px){
+    .content{
+        height: 160px;
+    }
 }

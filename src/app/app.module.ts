@@ -40,8 +40,6 @@ import { ProjectsItemComponent } from './projects-item/projects-item.component';
 import { SoundComponent } from './sound/sound.component';
 import { ProjectsInfoComponent } from './projects-info/projects-info.component';
 import { Card2Component } from './card2/card2.component';
-import {CarouselModule} from 'primeng/carousel';
-import {ToastModule} from 'primeng/toast';
 import { CouruselComponent } from './courusel/courusel.component';
 import { CouruselItemComponent } from './courusel-item/courusel-item.component';
 
@@ -90,9 +88,7 @@ import { CouruselItemComponent } from './courusel-item/courusel-item.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    CarouselModule,
-    ToastModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

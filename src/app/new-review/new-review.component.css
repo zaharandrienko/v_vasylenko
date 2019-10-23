@@ -1,14 +1,41 @@
 .NewPost{
-    height: 200px;
+    height: auto;
     width: 100%;
-    margin-top: 60px ;
+    margin-top: 110px ;
 }
 
 h2{
-    margin-top: 60px;
     margin-left: 20px ;
 }
 
 p{
     font-size: 150% ;
+}
+
+@media screen and (max-width: 930px){
+    h2{
+        font-size: 150%;
+    }
+    p{
+        font-size: 135% ;
+    }   
+    .NewPost{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .NewPost{
+        margin-top: 80px;
+    }
+    h2{
+        font-size: 130%;
+    }
+    p{
+        font-size: 110% ;
+    }
+    .NewPost{
+        margin-top: 50px;
+    }
+    
 }

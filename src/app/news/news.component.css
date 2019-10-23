@@ -1,9 +1,10 @@
 .news {
     background-color: #efebe8;
     width: 100%;
-    height: 400px;
-    padding-top: 60px;
+    height: auto;
+    padding: 50px 0px;
     color:black;
+    overflow: hidden;
 }
 
 .btn {
@@ -16,4 +17,51 @@
     border-radius: 2px;
     display: inline-block;
     
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .news{
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .news{
+        font-size: 12px;
+        padding: 30px 0px;
+    }
+}
+
+
+@media screen and (max-width: 530px){
+    .container{
+        padding: 0px 5px;
+    }
+    td{
+        padding: 5px;;
+    }
+    tr{
+        margin-bottom: 20px;
+        height: 100px;
+    }
+    th{
+        padding-top: 20px;
+    }
+    h2{
+        font-size: 180%;
+        margin-bottom: -30px
+    }
+    .none{
+        display: none;
+    }
+    .fly{
+        position: relative;
+    }
+    .fly a{
+        position: absolute;
+        left: -80px;
+        top: 40px;
+    }
 }

@@ -177,3 +177,20 @@ span {
    
     
 }
+
+
+@media screen and (max-width: 600px) {
+    .aa{
+        width: 0px;
+    }
+    .icons{
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+        text-align: center;
+    }
+    .footer{
+        display: block;
+    }
+}

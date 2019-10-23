@@ -71,8 +71,6 @@
     position: fixed ;
     background-color: rgba(0, 0, 0, 0.918);
     display: none ;
-
-
 }
 .active{
     display: block ;
@@ -89,7 +87,6 @@ a.icon{
     background-color: rgba(127, 255, 212, 0) ;
     transition: all 1000ms;
     top: 0px ;
-
 }
 .show{
     background-color: rgba(255, 255, 255, 0.973) ;
@@ -97,6 +94,10 @@ a.icon{
 }
 .none{
     display: none ;
+}
+.down{
+    color: rgba(255, 255, 255, 0);
+    transition: all 500ms;
 }
 
 
@@ -206,6 +207,12 @@ a.icon{
         padding-right: 7px;
         padding-left: 5px;
     }
+    .down{
+        color: #000;
+    }
+    .title h5{
+        margin-left: 5px;
+    }
 
   }
   
@@ -238,7 +245,3 @@ a.icon{
     }
   }
 
-.down{
-    color: rgba(255, 255, 255, 0);
-    transition: all 500ms;
-}

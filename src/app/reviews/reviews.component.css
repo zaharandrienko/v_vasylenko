@@ -5,7 +5,7 @@
     margin-top: -102px ;
     z-index: 1;
     left: 230px;
-    z-index: 1000;
+    z-index: 1;
     box-shadow: inset 0px -200px 20px -196px rgb(255, 255, 255);
 }
 .general{
@@ -16,4 +16,39 @@
 }
 .general h1{
     text-align: center ;
+}
+
+
+@media screen and (max-width: 500px) {
+    .pageInd{
+        width: 50%;
+        height: 60.8px;
+        margin-top: -130.8px ;
+        margin-left: -229px;
+        box-shadow: inset 76px 0px 50px -57px rgba(255, 255, 255, 0.75);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .general{
+        width: 80%;
+        margin:70px 10% ;
+        padding-bottom: 170px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .general{
+        width: 84%;
+        margin:70px 8% ;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .general{
+        width: 86%;
+        margin:70px 7% ;
+    }
 }
