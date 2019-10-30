@@ -1,12 +1,9 @@
 <div class="black"></div>
-<div class="card" (click)="move()">
-  <div class="content">
-    <div class="close1" [class.activeClose]="rota">
+<div class="card" (click)="move()" [class.activeCard]="rota">
+  <div class="content" >
+    <!-- <div class="close1" [class.activeClose]="rota">
       <div class="closeButton"></div>
-    </div>
+    </div> -->
     <img src="{{imgSrc}}" [class.activeImg]="rota">
-  </div> 
-  <!-- <h2 class="date tag" [class.activeTag]="rota">{{date}}</h2>
-  <h3 class="title tag" [class.activeTag]="rota">{{title}}</h3> -->
+  </div>
 </div>
-
