@@ -7,6 +7,10 @@
     padding: 0px 40px;
     width: 100%;
 }
+.content{
+    max-height: 100%;
+    overflow-y: auto;
+}
 
 .date{
     margin-top: 0%;

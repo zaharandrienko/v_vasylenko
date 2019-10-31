@@ -23,7 +23,8 @@ hr{
 }
 .title{
     text-align: center;
-    margin: 0px 0px 140px 0px;
+    margin: 0px 0px 110px 0px;
+    font-size: 150%;
 }
 
 .general{
@@ -35,10 +36,10 @@ hr{
 .text{
     width: 96%;
     margin: 0px 2% 50px 2%;
-    font-size: 24px;
+    font-size: 21px;
 }
 img{
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 .leftimg {
