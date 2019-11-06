@@ -30,7 +30,6 @@ img{
     position: static;
     display: block;
     margin-left: 50%; 
-    /* Move to the left by 50% of own width */
     transform: translateX(-50%); 
 }
 
@@ -114,7 +113,7 @@ h2 h3 p {
         box-shadow: none;
     }
     img{
-        margin-left: 0%;
+        /* margin-left: 0%; */
         width: 100%;
         height: auto;
     }
