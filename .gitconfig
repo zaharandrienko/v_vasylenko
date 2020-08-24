@@ -1,0 +1,8 @@
+[user]
+	email = zaharandrienko88@gmail.com
+	name = Zahar Andrienko
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true

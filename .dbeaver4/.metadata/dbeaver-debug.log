@@ -1,0 +1,272 @@
+2019-03-18 21:57:07.744 - DBeaver 6.0.0.201903101945 is starting
+2019-03-18 21:57:07.748 - OS: Windows 10 10.0 (amd64)
+2019-03-18 21:57:07.751 - Java version: 11.0.2 by Oracle Corporation (64bit)
+2019-03-18 21:57:07.756 - Install path: 'D:\myprogs\dbeaver-ce-6.0.0-win32.win32.x86_64\dbeaver'
+2019-03-18 21:57:07.763 - Instance path: 'file:/C:/Users/Zahar/.dbeaver4/'
+2019-03-18 21:57:07.767 - Memory available 64Mb/1024Mb
+2019-03-18 21:57:07.805 - Starting RMI server at 30173
+2019-03-18 21:57:07.927 - Run workbench
+2019-03-18 21:57:07.956 - > Start org.eclipse.e4.ui.workbench.swt [0.14.300.v20180906-1121]
+2019-03-18 21:57:07.961 - > Start org.eclipse.e4.core.services [2.1.200.v20180817-1215]
+2019-03-18 21:57:07.965 - > Start org.eclipse.e4.core.contexts [1.7.100.v20180817-1215]
+2019-03-18 21:57:07.981 - > Start org.eclipse.e4.ui.services [1.3.200.v20180906-1121]
+2019-03-18 21:57:08.056 - > Start org.eclipse.e4.ui.di [1.2.300.v20180906-1121]
+2019-03-18 21:57:08.177 - > Start org.eclipse.emf.common [2.15.0.v20180723-1316]
+2019-03-18 21:57:08.246 - > Start org.eclipse.emf.ecore [2.15.0.v20180722-1159]
+2019-03-18 21:57:08.347 - > Start org.eclipse.emf.ecore.xmi [2.15.0.v20180706-1146]
+2019-03-18 21:57:08.616 - > Start org.eclipse.core.filesystem [1.7.200.v20180828-0158]
+2019-03-18 21:57:08.704 - > Start org.eclipse.core.resources [3.13.100.v20180828-0158]
+2019-03-18 21:57:08.919 - > Start org.eclipse.e4.ui.workbench.addons.swt [1.3.200.v20180828-0227]
+2019-03-18 21:57:08.939 - > Start org.eclipse.core.expressions [3.6.200.v20180817-1401]
+2019-03-18 21:57:08.965 - > Start org.eclipse.e4.ui.workbench.renderers.swt [0.14.300.v20180828-0227]
+2019-03-18 21:57:09.109 - > Start org.eclipse.e4.ui.bindings [0.12.200.v20180828-0227]
+2019-03-18 21:57:09.195 - > Start org.eclipse.e4.core.di.extensions [0.15.200.v20180817-1215]
+2019-03-18 21:57:09.725 - > Start org.eclipse.e4.ui.css.swt [0.13.200.v20180828-0227]
+2019-03-18 21:57:09.828 - > Start org.eclipse.e4.ui.css.swt.theme [0.12.100.v20180828-0227]
+2019-03-18 21:57:10.512 - Initializing DBeaver 6.0.0
+2019-03-18 21:57:10.515 - Host plugin: org.jkiss.dbeaver.core.application 6.0.0.201903101945
+2019-03-18 21:57:10.519 - Initialize Core...
+2019-03-18 21:57:10.528 - Can't find BC security provider. Use default JCE.
+2019-03-18 21:57:10.532 - BouncyCastle not registered, using the default JCE provider
+2019-03-18 21:57:10.670 - > Start org.eclipse.team.core [3.8.300.v20180827-1041]
+2019-03-18 21:57:10.700 - > Start org.jkiss.dbeaver.ui.navigator [1.0.4.201903101945]
+2019-03-18 21:57:10.938 - Total database drivers: 71 (71)
+2019-03-18 21:57:10.988 - > Start org.eclipse.equinox.security [1.2.500.v20180827-1235]
+2019-03-18 21:57:11.034 - > Start org.eclipse.ui.net [1.3.300.v20180827-1041]
+2019-03-18 21:57:11.041 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2019-03-18 21:57:11.049 - > Start org.eclipse.core.net [1.3.300.v20180827-1041]
+2019-03-18 21:57:11.055 - Core initialized (536ms)
+2019-03-18 21:57:11.059 - Configure workbench window
+2019-03-18 21:57:11.085 - > Start org.eclipse.help [3.8.200.v20180821-0700]
+2019-03-18 21:57:12.670 - Create actions
+2019-03-18 21:57:12.675 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2019-03-18 21:57:12.681 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2019-03-18 21:57:12.775 - > Start org.eclipse.ui.editors [3.11.200.v20180822-1511]
+2019-03-18 21:57:12.783 - > Start org.eclipse.core.filebuffers [3.6.300.v20180822-1339]
+2019-03-18 21:57:13.881 - > Start org.eclipse.search [3.11.300.v20180822-1339]
+2019-03-18 21:57:13.927 - > Start org.eclipse.ui.workbench.texteditor [3.11.100.v20180824-1030]
+2019-03-18 21:57:13.956 - Initialize workbench window
+2019-03-18 21:57:13.968 - Finish initialization
+2019-03-18 21:57:14.039 - > Start org.jkiss.dbeaver.ui.editors.sql [1.0.4.201903101945]
+2019-03-18 21:57:14.200 - > Start org.jkiss.dbeaver.ext.erd [2.0.106.201903101945]
+2019-03-18 21:57:14.411 - > Start org.jkiss.dbeaver.ui.editors.base [1.0.4.201903101945]
+2019-03-18 21:57:16.299 - > Start org.eclipse.compare.core [3.6.300.v20180827-1041]
+2019-03-18 21:57:16.543 - > Start org.jkiss.dbeaver.ui.editors.data [1.0.4.201903101945]
+2019-03-18 21:57:19.231 - > Start org.eclipse.equinox.p2.core [2.5.100.v20180822-1532]
+2019-03-18 21:57:19.236 - > Start org.eclipse.equinox.p2.operations [2.5.100.v20180822-1302]
+2019-03-18 21:57:19.245 - > Start org.eclipse.equinox.p2.engine [2.6.100.v20180822-1302]
+2019-03-18 21:57:19.260 - > Start org.eclipse.equinox.p2.metadata [2.4.100.v20180822-1302]
+2019-03-18 21:57:19.288 - > Start org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.100.v20180827-1122]
+2019-03-18 21:57:19.294 - > Start org.eclipse.equinox.p2.updatechecker [1.2.100.v20180827-1122]
+2019-03-18 21:57:19.304 - > Start org.eclipse.equinox.p2.metadata.repository [1.3.100.v20180822-1302]
+2019-03-18 21:57:19.307 - > Start org.eclipse.equinox.p2.repository [2.4.100.v20180822-1354]
+2019-03-18 21:57:19.953 - > Start org.eclipse.equinox.p2.ui [2.5.200.v20180822-1357]
+2019-03-18 21:57:20.279 - > Start org.jkiss.dbeaver.ext.sample.database [1.0.41.201903101945]
+2019-03-18 21:57:20.285 - > Start org.jkiss.dbeaver.ext.ui.tipoftheday [1.0.10.201903101945]
+2019-03-18 21:57:20.613 - Connect with 'PostgreSQL - postgres' (postgres-jdbc-1696cf75607-5502afc97deaba45)
+2019-03-18 21:57:20.625 - > Start org.jkiss.dbeaver.ext.postgresql [2.1.77.201903101945]
+2019-03-18 21:57:20.761 - Initiate connection to PostgreSQL database [postgres@localhost] for Main
+2019-03-18 21:57:21.098 - Initiate connection to PostgreSQL database [postgres@localhost] for Metadata
+2019-03-18 21:57:21.371 - Connected (postgres-jdbc-1696cf75607-5502afc97deaba45, PostgreSQL JDBC Driver [42.2.5])
+2019-03-18 21:57:22.260 - Open [https://dbeaver.io/product/version.xml]
+Mar 18, 2019 9:57:24 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 9:57:24 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+2019-03-18 21:57:25.054 - > Start org.eclipse.gef [3.11.0.201606061308]
+2019-03-18 21:57:25.077 - > Start org.eclipse.draw2d [3.10.100.201606061308]
+2019-03-18 22:09:54.043 - Initiate connection to PostgreSQL database [postgres@localhost] for Main
+2019-03-18 22:09:54.122 - Initiate connection to PostgreSQL database [postgres@localhost] for Metadata
+Mar 18, 2019 10:09:54 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+2019-03-18 22:09:57.299 - Initiate connection to PostgreSQL database [postgres@localhost] for Main
+2019-03-18 22:09:57.372 - Initiate connection to PostgreSQL database [postgres@localhost] for Metadata
+Mar 18, 2019 10:09:57 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+2019-03-18 22:10:08.497 - Initiate connection to PostgreSQL database [postgres@localhost] for Main
+2019-03-18 22:10:08.551 - Initiate connection to PostgreSQL database [postgres@localhost] for Metadata
+Mar 18, 2019 10:10:08 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 10:10:12 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000002. Windows RegCreateKeyEx(...) returned error code 5.
+java.lang.NoSuchMethodException: java.util.prefs.WindowsPreferences.WindowsRegOpenKey(int, [B, int)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2476)
+	at org.jkiss.dbeaver.utils.WinRegistry.<clinit>(WinRegistry.java:60)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClients(PostgreDataSourceProvider.java:146)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClientLocations(PostgreDataSourceProvider.java:107)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesSelector.populateHomes(ClientHomesSelector.java:115)
+	at org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage.loadSettings(PostgreConnectionPage.java:239)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:116)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.changePage(MultiPageWizardDialog.java:248)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createDialogArea(MultiPageWizardDialog.java:147)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createContents(MultiPageWizardDialog.java:102)
+	at org.jkiss.dbeaver.ui.dialogs.connection.EditConnectionDialog.createContents(EditConnectionDialog.java:62)
+	at org.eclipse.jface.window.Window.create(Window.java:429)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:786)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.openConnectionEditor(UIServiceConnectionsImpl.java:43)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openConnectionEditor(NavigatorHandlerObjectOpen.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:133)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:120)
+	at org.jkiss.dbeaver.ui.navigator.NavigatorUtils.openNavigatorNode(NavigatorUtils.java:650)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.execute(NavigatorHandlerObjectOpen.java:98)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:207)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:436)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+2019-03-18 22:10:13.049 - Error reading Windows registry
+java.lang.NullPointerException
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:337)
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:162)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClients(PostgreDataSourceProvider.java:146)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClientLocations(PostgreDataSourceProvider.java:107)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesSelector.populateHomes(ClientHomesSelector.java:115)
+	at org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage.loadSettings(PostgreConnectionPage.java:239)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:116)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.changePage(MultiPageWizardDialog.java:248)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createDialogArea(MultiPageWizardDialog.java:147)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createContents(MultiPageWizardDialog.java:102)
+	at org.jkiss.dbeaver.ui.dialogs.connection.EditConnectionDialog.createContents(EditConnectionDialog.java:62)
+	at org.eclipse.jface.window.Window.create(Window.java:429)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:786)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.openConnectionEditor(UIServiceConnectionsImpl.java:43)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openConnectionEditor(NavigatorHandlerObjectOpen.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:133)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:120)
+	at org.jkiss.dbeaver.ui.navigator.NavigatorUtils.openNavigatorNode(NavigatorUtils.java:650)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.execute(NavigatorHandlerObjectOpen.java:98)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:207)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:436)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+2019-03-18 22:11:44.896 - Initiate connection to PostgreSQL database [postgres@localhost] for Main
+2019-03-18 22:11:44.961 - Initiate connection to PostgreSQL database [postgres@localhost] for Metadata
+Mar 18, 2019 10:11:45 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+2019-03-18 22:12:18.255 - Connect with 'jdbc:postgresql://localhost:5432/harmony' (postgres-jdbc-169926ef155-2bac233010dcb15c)
+2019-03-18 22:12:18.261 - Initiate connection to PostgreSQL database [harmony@localhost] for Main
+2019-03-18 22:12:18.369 - Connected (postgres-jdbc-169926ef155-2bac233010dcb15c, PostgreSQL JDBC Driver [42.2.5])
+2019-03-18 22:12:18.378 - > Start org.jkiss.dbeaver.ext.wmi [2.0.106.201903101945]
+2019-03-18 22:12:18.383 - > Start org.jkiss.dbeaver.ext.athena [1.0.10.201903101945]
+2019-03-18 22:12:18.388 - > Start org.jkiss.dbeaver.ext.bigquery [1.0.10.201903101945]
+2019-03-18 22:12:18.393 - > Start org.jkiss.dbeaver.ext.db2 [2.1.89.201903101945]
+2019-03-18 22:12:18.402 - > Start org.jkiss.dbeaver.ext.generic [2.3.90.201903101945]
+2019-03-18 22:12:18.410 - > Start org.jkiss.dbeaver.ext.exasol [1.0.62.201903101945]
+2019-03-18 22:12:18.415 - > Start org.jkiss.dbeaver.ext.mssql.ui [1.0.3.201903101945]
+2019-03-18 22:12:18.419 - > Start org.jkiss.dbeaver.ext.mysql [2.1.89.201903101945]
+2019-03-18 22:12:18.424 - > Start org.jkiss.dbeaver.ext.oracle [2.1.89.201903101945]
+2019-03-18 22:12:18.439 - > Start org.jkiss.dbeaver.ext.snowflake.ui [1.0.24.201903101945]
+2019-03-18 22:12:18.492 - Disconnected (postgres-jdbc-169926ef155-2bac233010dcb15c)
+2019-03-18 22:12:23.469 - Connect with 'PostgreSQL - harmony' (postgres-jdbc-169926ead16-664ee4c2a5943a39)
+2019-03-18 22:12:23.473 - Initiate connection to PostgreSQL database [harmony@localhost] for Main
+2019-03-18 22:12:23.542 - Initiate connection to PostgreSQL database [harmony@localhost] for Metadata
+2019-03-18 22:12:23.615 - Connected (postgres-jdbc-169926ead16-664ee4c2a5943a39, PostgreSQL JDBC Driver [42.2.5])
+2019-03-18 22:16:13.604 - > Start org.jkiss.dbeaver.ext.mssql [1.0.98.201903101945]
+2019-03-18 22:20:07.659 - Connect with 'jdbc:postgresql://localhost:5432/harmony' (postgres-jdbc-16992761b37-73e2c8e0de631ef8)
+2019-03-18 22:20:07.663 - Initiate connection to PostgreSQL database [harmony@localhost] for Main
+2019-03-18 22:20:07.787 - Connected (postgres-jdbc-16992761b37-73e2c8e0de631ef8, PostgreSQL JDBC Driver [42.2.5])
+2019-03-18 22:20:07.846 - Disconnected (postgres-jdbc-16992761b37-73e2c8e0de631ef8)
+2019-03-18 22:20:13.328 - Disconnected (postgres-jdbc-169926ead16-664ee4c2a5943a39)
+2019-03-18 22:20:13.460 - Connect with 'PostgreSQL - harmony' (postgres-jdbc-169926ead16-664ee4c2a5943a39)
+2019-03-18 22:20:13.464 - Initiate connection to PostgreSQL database [harmony@localhost] for Main
+2019-03-18 22:20:13.536 - Initiate connection to PostgreSQL database [harmony@localhost] for Metadata
+2019-03-18 22:20:13.633 - Connected (postgres-jdbc-169926ead16-664ee4c2a5943a39, PostgreSQL JDBC Driver [42.2.5])
+2019-03-18 22:20:53.540 - Initiate connection to PostgreSQL database [harmony@localhost] for Main
+2019-03-18 22:20:53.624 - Initiate connection to PostgreSQL database [harmony@localhost] for Metadata
+Mar 18, 2019 10:26:01 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 10:26:01 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 10:28:25 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 10:28:25 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 10:36:04 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+Mar 18, 2019 10:36:04 PM org.apache.commons.jexl2.JexlEngine unknownVariable
+WARNING: org.jkiss.dbeaver.model.impl.AbstractDescriptor.parseExpression@58![17,32]: '!object.view && !object.external;' inaccessible or unknown property object
+2019-03-20 18:44:48.681 - DBeaver is stopping
+2019-03-20 18:44:48.684 - Stop RMI server

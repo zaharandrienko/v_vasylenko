@@ -1,0 +1,556 @@
+!SESSION 2019-03-11 15:35:25.214 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2019-03-11 15:35:31.705
+!MESSAGE Project 'General' not found in registry
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2019-03-11 15:35:44.471
+!MESSAGE Error reading Windows registry
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2019-03-11 15:35:44.471
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:337)
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:162)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClients(PostgreDataSourceProvider.java:146)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.getDefaultLocalClientLocation(PostgreDataSourceProvider.java:113)
+	at org.jkiss.dbeaver.registry.driver.DriverDescriptor.getDefaultClientLocation(DriverDescriptor.java:1271)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard.getActiveDataSource(ConnectionWizard.java:114)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.getActiveDataSource(ConnectionPageSettings.java:292)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.getActiveDataSource(ConnectionPageSettings.java:1)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageAbstract.createSavePasswordButton(ConnectionPageAbstract.java:226)
+	at org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage.createControl(PostgreConnectionPage.java:134)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.createProviderPage(ConnectionPageSettings.java:211)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:108)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:57)
+	at org.eclipse.jface.wizard.WizardDialog.updateForPage(WizardDialog.java:1196)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$3(WizardDialog.java:1166)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jface.wizard.WizardDialog.showPage(WizardDialog.java:1166)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardDialog.showPage(ActiveWizardDialog.java:82)
+	at org.eclipse.jface.wizard.WizardDialog.nextPressed(WizardDialog.java:861)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:410)
+	at org.jkiss.dbeaver.ui.dialogs.connection.CreateConnectionDialog.buttonPressed(CreateConnectionDialog.java:58)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:821)
+	at org.eclipse.jface.window.Window.open(Window.java:797)
+	at org.jkiss.dbeaver.ui.dialogs.connection.CreateConnectionDialog.open(CreateConnectionDialog.java:83)
+	at org.jkiss.dbeaver.core.application.WorkbenchInitializerNewConnection.initializeWorkbenchWindow(WorkbenchInitializerNewConnection.java:32)
+	at org.jkiss.dbeaver.core.application.ApplicationWorkbenchWindowAdvisor.lambda$1(ApplicationWorkbenchWindowAdvisor.java:242)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 15:35:54.451
+!MESSAGE SQL Error [42704]: ERROR: unrecognized configuration parameter "databases"
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-11 15:35:54.451
+!MESSAGE ERROR: unrecognized configuration parameter "databases"
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: unrecognized configuration parameter "databases"
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:260)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:204)
+	at org.jkiss.dbeaver.ext.snowflake.views.SnowflakeConnectionPage.loadDictList(SnowflakeConnectionPage.java:302)
+	at org.jkiss.dbeaver.ext.snowflake.views.SnowflakeConnectionPage.testConnection(SnowflakeConnectionPage.java:289)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.testConnection(ConnectionPageSettings.java:372)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard$ConnectionTester.testInPage(ConnectionWizard.java:314)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard$ConnectionTester.run(ConnectionWizard.java:296)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 15:36:02.976
+!MESSAGE SQL Error [42704]: ERROR: unrecognized configuration parameter "databases"
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-11 15:36:02.976
+!MESSAGE ERROR: unrecognized configuration parameter "databases"
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: unrecognized configuration parameter "databases"
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+	at org.postgresql.jdbc.PgPreparedStatement.execute(PgPreparedStatement.java:132)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:260)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:204)
+	at org.jkiss.dbeaver.ext.snowflake.views.SnowflakeConnectionPage.loadDictList(SnowflakeConnectionPage.java:302)
+	at org.jkiss.dbeaver.ext.snowflake.views.SnowflakeConnectionPage.testConnection(SnowflakeConnectionPage.java:289)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.testConnection(ConnectionPageSettings.java:372)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard$ConnectionTester.testInPage(ConnectionWizard.java:314)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionWizard$ConnectionTester.run(ConnectionWizard.java:296)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2019-03-11 15:36:37.871
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-11 15:36:37.872
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53bc6492,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.jkiss.dbeaver.core.navigator.bookmark.add,Add Bookmark,
+		Add Bookmark,
+		Category(org.jkiss.dbeaver.core.navigator,Database Navigator,Database Navigator Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e834a5b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.jkiss.dbeaver.ui.context.navigator,,,system)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 15:44:05.339
+!MESSAGE SQL Error [42601]: ERROR: syntax error at or near ")"
+  Position: 73
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-11 15:44:05.339
+!MESSAGE ERROR: syntax error at or near ")"
+  Position: 73
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: syntax error at or near ")"
+  Position: 73
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:137)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:458)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.DBUtils.tryExecuteRecover(DBUtils.java:1679)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:400)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:839)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2696)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:102)
+	at org.jkiss.dbeaver.model.DBUtils.tryExecuteRecover(DBUtils.java:1679)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:100)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 16:13:15.241
+!MESSAGE SQL Error [22023]: ERROR: identity column type must be smallint, integer, or bigint
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-11 16:13:15.241
+!MESSAGE ERROR: identity column type must be smallint, integer, or bigint
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: identity column type must be smallint, integer, or bigint
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:137)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:46)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:186)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:108)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.saveCommandContext(EntityEditor.java:297)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.access$0(EntityEditor.java:286)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor$SaveJob.run(EntityEditor.java:1002)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 16:13:35.506
+!MESSAGE Bad data type name specified: big
+!STACK 0
+java.lang.IllegalArgumentException: Bad data type name specified: big
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreAttribute$DataTypeValueTransformer.transform(PostgreAttribute.java:327)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreAttribute$DataTypeValueTransformer.transform(PostgreAttribute.java:1)
+	at org.jkiss.dbeaver.runtime.properties.PropertySourceEditable.setPropertyValue(PropertySourceEditable.java:89)
+	at org.jkiss.dbeaver.ui.controls.itemlist.ItemListControl$CellEditingSupport.setValue(ItemListControl.java:294)
+	at org.eclipse.jface.viewers.EditingSupport.saveCellEditorValue(EditingSupport.java:116)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.saveEditorValue(ColumnViewerEditor.java:436)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.applyEditorValue(ColumnViewerEditor.java:302)
+	at org.eclipse.jface.viewers.ColumnViewerEditor$1.applyEditorValue(ColumnViewerEditor.java:155)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:335)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:332)
+	at org.eclipse.jface.viewers.ComboBoxCellEditor.applyEditorValueAndDeactivate(ComboBoxCellEditor.java:274)
+	at org.eclipse.jface.viewers.ComboBoxCellEditor.focusLost(ComboBoxCellEditor.java:281)
+	at org.eclipse.jface.viewers.ComboBoxCellEditor$3.focusLost(ComboBoxCellEditor.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:147)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CCombo.handleFocus(CCombo.java:921)
+	at org.eclipse.swt.custom.CCombo.lambda$1(CCombo.java:133)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 16:13:40.368
+!MESSAGE Bad data type name specified: big
+!STACK 0
+java.lang.IllegalArgumentException: Bad data type name specified: big
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreAttribute$DataTypeValueTransformer.transform(PostgreAttribute.java:327)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreAttribute$DataTypeValueTransformer.transform(PostgreAttribute.java:1)
+	at org.jkiss.dbeaver.runtime.properties.PropertySourceEditable.setPropertyValue(PropertySourceEditable.java:89)
+	at org.jkiss.dbeaver.ui.controls.itemlist.ItemListControl$CellEditingSupport.setValue(ItemListControl.java:294)
+	at org.eclipse.jface.viewers.EditingSupport.saveCellEditorValue(EditingSupport.java:116)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.saveEditorValue(ColumnViewerEditor.java:436)
+	at org.eclipse.jface.viewers.ColumnViewerEditor.applyEditorValue(ColumnViewerEditor.java:302)
+	at org.eclipse.jface.viewers.ColumnViewerEditor$1.applyEditorValue(ColumnViewerEditor.java:155)
+	at org.eclipse.jface.viewers.CellEditor$1.run(CellEditor.java:335)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.CellEditor.fireApplyEditorValue(CellEditor.java:332)
+	at org.eclipse.jface.viewers.ComboBoxCellEditor.applyEditorValueAndDeactivate(ComboBoxCellEditor.java:274)
+	at org.eclipse.jface.viewers.ComboBoxCellEditor.focusLost(ComboBoxCellEditor.java:281)
+	at org.eclipse.jface.viewers.ComboBoxCellEditor$3.focusLost(ComboBoxCellEditor.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:147)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1064)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:778)
+	at org.eclipse.swt.custom.CCombo.handleFocus(CCombo.java:921)
+	at org.eclipse.swt.custom.CCombo.lambda$1(CCombo.java:133)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 16:16:04.897
+!MESSAGE SQL Error [42703]: ERROR: column "maile" does not exist
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-11 16:16:04.897
+!MESSAGE ERROR: column "maile" does not exist
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: column "maile" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:137)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractObjectManager.executePersistAction(AbstractObjectManager.java:46)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.executeCommands(AbstractCommandContext.java:186)
+	at org.jkiss.dbeaver.model.impl.edit.AbstractCommandContext.saveChanges(AbstractCommandContext.java:108)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.saveCommandContext(EntityEditor.java:297)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor.access$0(EntityEditor.java:286)
+	at org.jkiss.dbeaver.ui.editors.entity.EntityEditor$SaveJob.run(EntityEditor.java:1002)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-11 16:17:59.025
+!MESSAGE SQL Error [42601]: ERROR: syntax error at or near "when"
+  Position: 23
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-11 16:17:59.025
+!MESSAGE ERROR: syntax error at or near "when"
+  Position: 23
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "when"
+  Position: 23
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:137)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:458)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.DBUtils.tryExecuteRecover(DBUtils.java:1679)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:400)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:839)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2696)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:102)
+	at org.jkiss.dbeaver.model.DBUtils.tryExecuteRecover(DBUtils.java:1679)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:100)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-03-13 21:29:24.694 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2019-03-13 21:29:58.436
+!MESSAGE Error reading Windows registry
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2019-03-13 21:29:58.436
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:337)
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:162)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClients(PostgreDataSourceProvider.java:146)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClientLocations(PostgreDataSourceProvider.java:107)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesSelector.populateHomes(ClientHomesSelector.java:115)
+	at org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage.loadSettings(PostgreConnectionPage.java:239)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:116)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.changePage(MultiPageWizardDialog.java:248)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createDialogArea(MultiPageWizardDialog.java:147)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createContents(MultiPageWizardDialog.java:102)
+	at org.jkiss.dbeaver.ui.dialogs.connection.EditConnectionDialog.createContents(EditConnectionDialog.java:62)
+	at org.eclipse.jface.window.Window.create(Window.java:429)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:786)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.openConnectionEditor(UIServiceConnectionsImpl.java:43)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openConnectionEditor(NavigatorHandlerObjectOpen.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:133)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:120)
+	at org.jkiss.dbeaver.ui.navigator.NavigatorUtils.openNavigatorNode(NavigatorUtils.java:650)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.execute(NavigatorHandlerObjectOpen.java:98)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:207)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:436)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-03-13 22:11:00.072
+!MESSAGE SQL Error [42703]: ERROR: column "Mercedes" does not exist
+  Position: 46
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-03-13 22:11:00.073
+!MESSAGE ERROR: column "Mercedes" does not exist
+  Position: 46
+!STACK 0
+org.postgresql.util.PSQLException: ERROR: column "Mercedes" does not exist
+  Position: 46
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:307)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:293)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:270)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:266)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:344)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:137)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:458)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:402)
+	at org.jkiss.dbeaver.model.DBUtils.tryExecuteRecover(DBUtils.java:1679)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:400)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:839)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2696)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:102)
+	at org.jkiss.dbeaver.model.DBUtils.tryExecuteRecover(DBUtils.java:1679)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:100)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-03-18 21:57:05.455 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2019-03-18 22:10:13.225
+!MESSAGE Error reading Windows registry
+!SUBENTRY 1 org.jkiss.dbeaver.model 2 0 2019-03-18 22:10:13.225
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:337)
+	at org.jkiss.dbeaver.utils.WinRegistry.readStringSubKeys(WinRegistry.java:162)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClients(PostgreDataSourceProvider.java:146)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.findLocalClientLocations(PostgreDataSourceProvider.java:107)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ClientHomesSelector.populateHomes(ClientHomesSelector.java:115)
+	at org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage.loadSettings(PostgreConnectionPage.java:239)
+	at org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageSettings.activatePage(ConnectionPageSettings.java:116)
+	at org.jkiss.dbeaver.ui.dialogs.ActiveWizardPage.setVisible(ActiveWizardPage.java:57)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.changePage(MultiPageWizardDialog.java:248)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createDialogArea(MultiPageWizardDialog.java:147)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:161)
+	at org.jkiss.dbeaver.ui.dialogs.MultiPageWizardDialog.createContents(MultiPageWizardDialog.java:102)
+	at org.jkiss.dbeaver.ui.dialogs.connection.EditConnectionDialog.createContents(EditConnectionDialog.java:62)
+	at org.eclipse.jface.window.Window.create(Window.java:429)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.jface.window.Window.open(Window.java:786)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.openConnectionEditor(UIServiceConnectionsImpl.java:43)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openConnectionEditor(NavigatorHandlerObjectOpen.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:133)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.openEntityEditor(NavigatorHandlerObjectOpen.java:120)
+	at org.jkiss.dbeaver.ui.navigator.NavigatorUtils.openNavigatorNode(NavigatorUtils.java:650)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen.execute(NavigatorHandlerObjectOpen.java:98)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:294)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:320)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:254)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:164)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:497)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:490)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:207)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:436)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3958)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3561)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:184)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
