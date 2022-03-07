@@ -1,0 +1,26 @@
+<div class="pageInd"></div>
+<div class="cv">
+  <h1>CV</h1>
+  <h3>You may download CV here:</h3>
+  <div class="pdf">
+    <div class="file">
+      <div class="arrow1" [class.go1]="go1"></div>
+      <a href="assets/pdf/Vasyl_Vasylenko_CV_ENG.pdf" download>
+        <div class="front" (click)="Go1()">Cv in English</div>
+      </a>
+    </div>
+    <div class="file">
+      <div class="arrow2" [class.go2]="go2"></div>
+      <a href="assets/pdf/Vasyl_Vasylenko_CV_UKR.pdf" download>
+      <div class="front" (click)="Go2()">Cv in Ukrainian</div>
+      </a>
+    </div>
+    <div class="file">
+      <div class="arrow3" [class.go3]="go3"></div>
+      <a href="assets/pdf/Vasyl_Vasylenko_CV_RU.pdf" download>
+      <div class="front" (click)="Go3()">Cv in Russian</div>
+      </a>
+    </div>
+
+  </div>
+</div>

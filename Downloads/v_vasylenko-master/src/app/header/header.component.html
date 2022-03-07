@@ -1,0 +1,36 @@
+<div class="mobile" [class.active]="rota">
+  <div class="NewMenu">
+    <div routerLink="home" (click)="rot()">Home</div>
+    <div routerLink="About" (click)="rot()">About</div>
+    <div routerLink="News" (click)="rot()">News</div>
+    <div routerLink="Projects" (click)="rot()">Projects</div>
+    <div routerLink="Watch&Listen" (click)="rot()">Watch&Listen</div>
+    <div routerLink="Gallery" (click)="rot()">Gallery</div>
+    <div routerLink="Contact" (click)="rot()">Contact</div>
+  </div>
+</div>
+<div class="general">
+  <div class="topnav" id="myTopnav" [class.white]="show">
+    <div class="title" [class.none]="rota" [class.white]="show">
+      <h2>Vasyl Vasylenko</h2>
+      <h5 [class.down]="show">conductor</h5>
+    </div>
+    <a routerLink="Contact" (click)="toTop()">Contact</a>
+    <a routerLink="Gallery" (click)="toTop()">Gallery</a>
+    <a routerLink="Watch&Listen" (click)="toTop()">Watch&Listen</a>
+    <a routerLink="Projects" (click)="toTop()">Projects</a>
+    <a routerLink="News" (click)="toTop()">News</a>
+    <a routerLink="About" (click)="toTop()">About</a>
+    <a routerLink="home" (click)="toTop()">Home</a>
+    <a class="icon">
+      <div class="menu" (click)="rot()">
+        <div class="bar1" [class.black]="show" [class.change1]="rota"></div>
+        <div class="bar2" [class.black]="show" [class.change2]="rota"></div>
+        <div class="bar3" [class.black]="show" [class.change3]="rota"></div>
+      </div>
+    </a>
+  </div>
+  <div class="hr" [class.none]="rota">
+  </div>
+  <div class="background" [class.none]="rota" [class.show]="show"></div>
+</div>

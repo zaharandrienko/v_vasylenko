@@ -1,0 +1,46 @@
+.pageInd{
+    width: 69px;
+    height: 34px;
+    position: absolute ;
+    margin-top: -102px ;
+    z-index: 1;
+    left: 142px;
+    z-index: 1;
+    box-shadow: inset 0px -200px 20px -196px rgb(255, 255, 255);
+}
+.general{
+    width: 70%;
+    margin:70px 15% ;
+    height: 100%;
+    padding-bottom: 200px;
+}
+.general h1{
+    text-align: center ;
+}
+
+
+@media screen and (max-width: 1070px){
+    .general{
+        width: 80%;
+        margin:70px 10% ;
+        height: 100%;
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pageInd{
+        width: 50%;
+        height: 60.8px;
+        margin-top: -191.6px ;
+        margin-left: -141px;
+        box-shadow: inset 76px 0px 50px -57px rgba(255, 255, 255, 0.75);
+    }
+}
+
+@media screen and (max-width: 530px){
+    .general{
+        width: 86%;
+        margin: 70px 7%;
+    }   
+}

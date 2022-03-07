@@ -1,0 +1,15 @@
+.pageInd{
+    width: 55px;
+    height: 34px;
+    position: fixed ;
+    margin-top: 26px ;
+    z-index: 1;
+    right:  669px;
+    z-index: 1000;
+    box-shadow: inset 0px -200px 10px -196px rgb(161, 161, 161);
+}
+@media screen and (max-width: 1117px) {
+.pageInd{
+    display: none ;
+}
+  }
