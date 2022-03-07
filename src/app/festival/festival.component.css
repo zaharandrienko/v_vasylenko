@@ -1,0 +1,113 @@
+.pageInd{
+    width: 195px;
+    height: 34px;
+    position: absolute ;
+    margin-top: -84px ;
+    z-index: 1;
+    left: 133px;
+    z-index: 1;
+    box-shadow: inset 0px -200px 20px -196px rgb(255, 255, 255);
+}
+h1,h2{
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+h4{
+    margin: -50px 0px 20px 60px;
+}
+hr{
+    width: 96%;
+    margin: 0% 2%;
+    height: 1px;
+    background-color: rgb(49, 49, 49);
+}
+.title{
+    text-align: center;
+    margin: 0px 0px 110px 0px;
+    font-size: 150%;
+}
+
+.general{
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 550px 0px;
+}
+
+.text{
+    width: 96%;
+    margin: 0px 2% 50px 2%;
+    font-size: 21px;
+}
+img{
+    width: 25%;
+    height: auto;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 20px 5px 0px; /* Отступы вокруг картинки */
+   }
+   @media screen and (max-width: 700px){
+    .general{
+        padding-bottom: 320px;
+    }
+}
+
+   @media screen and (max-width: 500px) {
+    .pageInd{
+        width: 50%;
+        height: 60.8px;
+        margin-top: -110px ;
+        margin-left: -133px;
+        box-shadow: inset 76px 0px 50px -57px rgba(255, 255, 255, 0.75);
+    }
+}
+
+@media screen and (max-width: 500px){
+    img{
+        width: 45%;
+    }
+    .text{
+        font-size: 110%;
+    }
+    .title{
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size: 200%;
+        /* margin-top: 30px; */
+    }
+    h2{
+        font-size: 160%;
+        margin: 0px;
+    }
+    h4{
+        margin-left: 0%;
+        font-size: 130%;
+        text-align: center;
+    }
+    hr{
+        height: 0.8px;
+        width: 92%;
+        margin: 0% 4%;
+    }
+    .none{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px){
+    img{
+        width: 37%;
+    }
+    .text{
+        font-size: 110%;
+    }
+    .title{
+        margin-bottom: 60px;
+    }
+    h1{
+        font-size: 200%;
+        /* margin-top: 30px; */
+    }
+}
+
+
