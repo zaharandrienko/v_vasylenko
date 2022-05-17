@@ -8,4 +8,4 @@ only fist time do
 
  
 
- ngh --dir dist/vvasylenko --cname=vasylvasylenko.comg
+ ngh --dir dist/vvasylenko --cname=vasylvasylenko.com
